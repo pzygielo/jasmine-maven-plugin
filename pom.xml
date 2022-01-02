@@ -143,7 +143,7 @@
   <properties>
     <jetty.version>9.4.43.v20210629</jetty.version>
     <selenium.version>4.0.0</selenium.version>
-    <jasmine.version>3.8.0</jasmine.version>
+    <jasmine.version>3.99.0</jasmine.version>
     <mockito.version>3.12.4</mockito.version>
     <webdrivermanager.version>5.0.3</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
