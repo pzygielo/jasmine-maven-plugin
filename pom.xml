@@ -142,7 +142,7 @@
   </ciManagement>
   <properties>
     <jetty.version>9.4.43.v20210629</jetty.version>
-    <selenium.version>4.0.0</selenium.version>
+    <selenium.version>4.1.1</selenium.version>
     <jasmine.version>4.0.0</jasmine.version>
     <mockito.version>3.12.4</mockito.version>
     <webdrivermanager.version>5.0.3</webdrivermanager.version>
