@@ -51,7 +51,7 @@
   };
 
   function isJasmineSpec(item) {
-    return item instanceof jasmine.Spec
+    return !item.children
   }
 
   var buildProgressFormatReport = function(items) {
