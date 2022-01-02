@@ -50,12 +50,16 @@
     return result;
   };
 
+  function isJasmineSpec(item) {
+    return item instanceof jasmine.Spec
+  }
+
   var buildProgressFormatReport = function(items) {
     var output = '';
     if (items) {
       for (var i=0; i < items.length; i++) {
         var item = items[i];
-        if(item instanceof jasmine.Spec) {
+        if(isJasmineSpec(item)) {
           specCount++;
           var result = resultForSpec(item);
           if (result.status == 'failed') {
@@ -82,7 +86,7 @@
         if(!inArray(reportedItems,item)) {
           line += (i > 0 && indentLevel === 0 ? '\n' : '')+"\n"+indent(indentLevel)+item.description;
 
-          if(item instanceof jasmine.Spec) {
+          if(isJasmineSpec(item)) {
             specCount++;
             var result = resultForSpec(item);
             if(result.status == 'failed') {
