@@ -451,13 +451,15 @@
           <artifactId>maven-dependency-plugin</artifactId>
           <version>3.2.0</version>
         </plugin>
+        <plugin>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>3.6.1</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
-        <version>3.6.1</version>
         <configuration>
           <goalPrefix>jasmine</goalPrefix>
           <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
@@ -607,9 +609,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
-        <version>3.6.1</version>
         <reportSets>
           <reportSet>
             <reports>
