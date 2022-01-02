@@ -23,7 +23,8 @@ public interface SpecRunnerHtmlGenerator {
   String DEFAULT_SOURCE_ENCODING = "UTF-8";
   String JASMINE_JS = "/webjars/jasmine-core/jasmine.js";
   String JASMINE_HTML_JS = "/webjars/jasmine-core/jasmine-html.js";
-  String JASMINE_BOOT_JS = "/webjars/jasmine-core/boot.js";
+  String JASMINE_BOOT0_JS = "/webjars/jasmine-core/boot0.js";
+  String JASMINE_BOOT1_JS = "/webjars/jasmine-core/boot1.js";
   String JASMINE_CSS = "/webjars/jasmine-core/jasmine.css";
   String JASMINE_HTMLSPECFILTER_PATCH_JS = "/classpath/lib/htmlSpecFilterPatch.js";
 

@@ -85,7 +85,7 @@ public class DefaultSpecRunnerHtmlGenerator implements SpecRunnerHtmlGenerator {
     ST template = this.resolveHtmlTemplate(configuration.getRunnerTemplate());
     this.applyScriptTagsToTemplate(
       JAVASCRIPT_DEPENDENCIES_TEMPLATE_ATTR_NAME,
-      Arrays.asList(JASMINE_JS, JASMINE_HTML_JS, JASMINE_HTMLSPECFILTER_PATCH_JS, JASMINE_BOOT_JS),
+      Arrays.asList(JASMINE_JS, JASMINE_HTML_JS, JASMINE_HTMLSPECFILTER_PATCH_JS, JASMINE_BOOT0_JS, JASMINE_BOOT1_JS),
       template);
     this.applyCssToTemplate(Collections.singletonList(JASMINE_CSS), template);
     this.applyScriptTagsToTemplate(ALL_SCRIPT_TAGS, allScripts, template);
