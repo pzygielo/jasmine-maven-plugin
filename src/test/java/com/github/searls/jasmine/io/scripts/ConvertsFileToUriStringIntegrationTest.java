@@ -34,6 +34,7 @@ public class ConvertsFileToUriStringIntegrationTest {
   public void presentsUrlRepresentationOfFile() throws IOException {
     String expected = "pants";
     File file = File.createTempFile("blerg", expected);
+    file.deleteOnExit();
 
     String result = this.subject.convert(file);
 
