@@ -51,7 +51,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Execute specs using Selenium Web Driver. Uses PhantomJsDriver for head-less execution by default.
+ * Execute specs using Selenium Web Driver.
  */
 @Mojo(name = "test", defaultPhase = LifecyclePhase.TEST, requiresDependencyResolution = ResolutionScope.TEST)
 public class TestMojo extends AbstractJasmineMojo {
@@ -60,7 +60,7 @@ public class TestMojo extends AbstractJasmineMojo {
 
   /**
    * Determines the Selenium WebDriver class we'll use to execute the tests. See the Selenium documentation for more
-   * details. The plugin uses <a href="https://github.com/detro/ghostdriver">PhantomJSDriver</a> by default.
+   * details.
    * <br>
    * <p>Some valid examples:</p>
    * <ul>
