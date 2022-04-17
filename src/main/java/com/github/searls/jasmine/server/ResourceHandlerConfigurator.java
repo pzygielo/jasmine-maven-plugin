@@ -27,6 +27,7 @@ import com.github.searls.jasmine.thirdpartylibs.ClassPathResourceHandler;
 import com.github.searls.jasmine.thirdpartylibs.WebJarResourceHandler;
 import org.apache.commons.lang3.StringUtils;
 import org.eclipse.jetty.server.Handler;
+import org.eclipse.jetty.server.SymlinkAllowedResourceAliasChecker;
 import org.eclipse.jetty.server.handler.AllowSymLinkAliasChecker;
 import org.eclipse.jetty.server.handler.ContextHandler;
 import org.eclipse.jetty.server.handler.ContextHandlerCollection;
@@ -76,7 +77,7 @@ public class ResourceHandlerConfigurator {
     contextHandler.setContextPath(contextPath);
     contextHandler.setResourceBase("");
     contextHandler.setHandler(handler);
-    contextHandler.addAliasCheck(new AllowSymLinkAliasChecker());
+    contextHandler.addAliasCheck(new SymlinkAllowedResourceAliasChecker(contextHandler));
     contexts.addHandler(contextHandler);
   }
 
