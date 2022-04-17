@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - 4.x-pz
   pull_request:
     branches:
-      - master
+      - 4.x-pz
 
 jobs:
   build:
@@ -14,7 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Pull image
-        run: docker-compose pull
-      - name: Build
-        run: docker-compose run test-suite
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 11
+          cache: 'maven'
+      - name: Verify with Maven
+        run: |
+          ./mvnw --batch-mode verify site
