@@ -8,7 +8,7 @@
 
   <name>jasmine-maven-plugin</name>
   <description>A JavaScript unit test plugin that processes JavaScript sources and Jasmine specs, prepares test runner HTML files, executes Jasmine specs headlessly with Chrome, and produces JUnit XML reports</description>
-  <url>https://github.com/searls/jasmine-maven-plugin</url>
+  <url>https://github.com/pzygielo/jasmine-maven-plugin</url>
   <licenses>
     <license>
       <distribution>repo</distribution>
@@ -121,9 +121,9 @@
     </contributor>
   </contributors>
   <scm>
-    <url>https://github.com/searls/jasmine-maven-plugin</url>
-    <connection>scm:git:git@github.com:searls/jasmine-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:searls/jasmine-maven-plugin.git</developerConnection>
+    <url>https://github.com/pzygielo/jasmine-maven-plugin</url>
+    <connection>scm:git:git@github.com:pzygielo/jasmine-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:pzygielo/jasmine-maven-plugin.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
@@ -134,7 +134,7 @@
   </distributionManagement>
   <issueManagement>
     <system>github</system>
-    <url>https://github.com/searls/jasmine-maven-plugin/issues</url>
+    <url>https://github.com/pzygielo/jasmine-maven-plugin/issues</url>
   </issueManagement>
   <ciManagement>
     <system>travis-ci</system>
