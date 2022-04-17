@@ -65,7 +65,6 @@ public class TestMojo extends AbstractJasmineMojo {
    * <p>Some valid examples:</p>
    * <ul>
    * <li>org.openqa.selenium.chrome.ChromeDriver</li>
-   * <li>org.openqa.selenium.htmlunit.HtmlUnitDriver</li>
    * <li>org.openqa.selenium.firefox.FirefoxDriver</li>
    * <li>org.openqa.selenium.ie.InternetExplorerDriver</li>
    * <li>org.openqa.selenium.remote.RemoteWebDriver</li>
