@@ -137,7 +137,7 @@
     <selenium.version>4.1.4</selenium.version>
     <jasmine.version>4.1.0</jasmine.version>
     <mockito.version>4.5.1</mockito.version>
-    <webdrivermanager.version>5.1.1</webdrivermanager.version>
+    <webdrivermanager.version>5.2.0</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>11</java.version>
