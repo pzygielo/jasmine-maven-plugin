@@ -134,7 +134,7 @@
   </issueManagement>
   <properties>
     <jetty.version>11.0.9</jetty.version>
-    <selenium.version>4.1.4</selenium.version>
+    <selenium.version>4.2.0</selenium.version>
     <jasmine.version>4.1.0</jasmine.version>
     <mockito.version>4.6.0</mockito.version>
     <webdrivermanager.version>5.2.0</webdrivermanager.version>
