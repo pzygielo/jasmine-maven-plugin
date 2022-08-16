@@ -7,8 +7,6 @@ For information on how to use the jasmine-maven-plugin, check out its [documenta
 
 You can find the latest release along with release notes [here](https://github.com/searls/jasmine-maven-plugin/releases).
 
-If you want to point at snapshot releases of the plugin (note that I don't deploy them often), they're hosted on the [Sonatype OSS snapshot repository](https://oss.sonatype.org/service/local/repositories/snapshots).
-
 ## Maintainers
 * [Kyle Lieber](http://kylelieber.com)
 
