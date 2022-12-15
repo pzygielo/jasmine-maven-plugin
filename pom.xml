@@ -136,7 +136,6 @@
     <jetty.version>11.0.13</jetty.version>
     <selenium.version>4.7.2</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
-    <mockito.version>4.10.0</mockito.version>
     <webdrivermanager.version>5.3.1</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -154,6 +153,13 @@
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
         <version>5.9.1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-bom</artifactId>
+        <version>4.10.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -307,13 +313,11 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-inline</artifactId>
-      <version>${mockito.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
-      <version>${mockito.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
