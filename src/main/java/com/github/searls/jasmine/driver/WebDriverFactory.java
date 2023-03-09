@@ -155,6 +155,7 @@ public class WebDriverFactory {
       new ChromeOptions()
         .setHeadless(true)
         .addArguments("--no-sandbox")
+        .addArguments("--remote-allow-origins=*")
         .addArguments("--disable-dev-shm-usage"),
       config
     ));
