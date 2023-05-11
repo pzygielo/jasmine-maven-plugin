@@ -136,7 +136,7 @@
     <jetty.version>11.0.15</jetty.version>
     <selenium.version>4.9.1</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
-    <webdrivermanager.version>5.3.2</webdrivermanager.version>
+    <webdrivermanager.version>5.3.3</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>11</java.version>
