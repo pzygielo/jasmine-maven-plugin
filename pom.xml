@@ -134,7 +134,7 @@
   </issueManagement>
   <properties>
     <jetty.version>11.0.17</jetty.version>
-    <selenium.version>4.11.0</selenium.version>
+    <selenium.version>4.12.0</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
     <webdrivermanager.version>5.6.0</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
