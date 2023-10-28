@@ -153,7 +153,7 @@ public class WebDriverFactory {
     WebDriverManager.getInstance(ChromeDriver.class).setup();
     return new ChromeDriver(customizeCapabilities(
       new ChromeOptions()
-        .setHeadless(true)
+        .addArguments("--headless=new")
         .addArguments("--no-sandbox")
         .addArguments("--remote-allow-origins=*")
         .addArguments("--disable-dev-shm-usage"),
