@@ -32,7 +32,6 @@ import org.openqa.selenium.Capabilities;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
-import static org.openqa.selenium.remote.CapabilityType.SUPPORTS_JAVASCRIPT;
 
 @ExtendWith(MockitoExtension.class)
 public class WebDriverFactoryTest {
@@ -62,7 +61,7 @@ public class WebDriverFactoryTest {
 
   @Test
   public void enablesJavascriptOnCustomDriver() throws Exception {
-    assertThat(createWebDriverAndReturnCapabilities().is(SUPPORTS_JAVASCRIPT)).isTrue();
+    assertThat(createWebDriverAndReturnCapabilities().is("javascriptEnabled")).isTrue();
   }
 
   @Test
