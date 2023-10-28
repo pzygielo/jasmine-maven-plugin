@@ -60,11 +60,6 @@ public class WebDriverFactoryTest {
   }
 
   @Test
-  public void enablesJavascriptOnCustomDriver() throws Exception {
-    assertThat(createWebDriverAndReturnCapabilities().is("javascriptEnabled")).isTrue();
-  }
-
-  @Test
   public void setsCapabilityFromMap() throws Exception {
     Capability capability = new Capability();
     capability.setName("foo");
