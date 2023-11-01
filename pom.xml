@@ -136,6 +136,7 @@
     <jetty.version>11.0.18</jetty.version>
     <selenium.version>4.14.1</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
+    <maven-plugin-tools.version>3.8.2</maven-plugin-tools.version>
     <webdrivermanager.version>5.6.0</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -438,7 +439,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>3.8.2</version>
+          <version>${maven-plugin-tools.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
