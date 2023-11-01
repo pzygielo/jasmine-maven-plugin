@@ -441,6 +441,10 @@
           <artifactId>maven-plugin-plugin</artifactId>
           <version>${maven-plugin-tools.version}</version>
         </plugin>
+        <plugin>
+          <artifactId>maven-plugin-report-plugin</artifactId>
+          <version>${maven-plugin-tools.version}</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -560,7 +564,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
       </plugin>
       <plugin>
-        <artifactId>maven-plugin-plugin</artifactId>
+        <artifactId>maven-plugin-report-plugin</artifactId>
         <reportSets>
           <reportSet>
             <reports>
