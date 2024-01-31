@@ -133,7 +133,7 @@
     <url>https://github.com/pzygielo/jasmine-maven-plugin/issues</url>
   </issueManagement>
   <properties>
-    <jetty.version>11.0.19</jetty.version>
+    <jetty.version>11.0.20</jetty.version>
     <selenium.version>4.17.0</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
     <maven-plugin-tools.version>3.11.0</maven-plugin-tools.version>
