@@ -3,7 +3,7 @@
 
   <groupId>com.github.pzygielo</groupId>
   <artifactId>jasmine-maven-plugin</artifactId>
-  <version>4.0-pz-SNAPSHOT</version>
+  <version>4.0-pz-10</version>
   <packaging>maven-plugin</packaging>
 
   <name>jasmine-maven-plugin</name>
@@ -120,7 +120,7 @@
     <url>https://github.com/pzygielo/jasmine-maven-plugin</url>
     <connection>scm:git:git@github.com:pzygielo/jasmine-maven-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:pzygielo/jasmine-maven-plugin.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>4.0-pz-10</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
