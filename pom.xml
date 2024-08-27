@@ -136,7 +136,7 @@
     <jetty.version>11.0.23</jetty.version>
     <selenium.version>4.23.1</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
-    <maven-plugin-tools.version>3.14.0</maven-plugin-tools.version>
+    <maven-plugin-tools.version>3.15.0</maven-plugin-tools.version>
     <webdrivermanager.version>5.9.2</webdrivermanager.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
