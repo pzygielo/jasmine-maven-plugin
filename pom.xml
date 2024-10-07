@@ -142,6 +142,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>11</java.version>
     <maven.compiler.release>${java.version}</maven.compiler.release>
+    <surefire-failsafe.version>3.5.0</surefire-failsafe.version>
   </properties>
 
   <prerequisites>
@@ -476,7 +477,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>${surefire-failsafe.version}</version>
         <configuration>
           <excludes>
             <exclude>**/*IntegrationTest.java</exclude>
@@ -485,7 +486,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-failsafe-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>${surefire-failsafe.version}</version>
         <executions>
           <execution>
             <id>integration-test</id>
@@ -595,7 +596,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>${surefire-failsafe.version}</version>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
