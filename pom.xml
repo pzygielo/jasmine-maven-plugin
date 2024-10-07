@@ -142,7 +142,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>11</java.version>
     <maven.compiler.release>${java.version}</maven.compiler.release>
-    <surefire-failsafe.version>3.5.0</surefire-failsafe.version>
+    <surefire-failsafe.version>3.5.1</surefire-failsafe.version>
   </properties>
 
   <prerequisites>
