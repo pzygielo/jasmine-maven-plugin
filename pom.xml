@@ -134,7 +134,7 @@
   </issueManagement>
   <properties>
     <jetty.version>11.0.24</jetty.version>
-    <selenium.version>4.31.0</selenium.version>
+    <selenium.version>4.32.0</selenium.version>
     <jasmine.version>4.5.0</jasmine.version>
     <maven-plugin-tools.version>3.15.1</maven-plugin-tools.version>
     <webdrivermanager.version>6.1.0</webdrivermanager.version>
