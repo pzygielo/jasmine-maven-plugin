@@ -19,14 +19,17 @@
  */
 package com.github.searls.jasmine.runner;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.openqa.selenium.ImmutableCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
+import static org.mockito.Mockito.lenient;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -39,6 +42,11 @@ public class WebDriverWaiterTest {
 
   @InjectMocks
   private WebDriverWaiter subject;
+
+  @BeforeEach
+  void setUp() {
+    lenient().when(webDriver.getCapabilities()).thenReturn(new ImmutableCapabilities());
+  }
 
   @Test
   public void itShouldWait() {
